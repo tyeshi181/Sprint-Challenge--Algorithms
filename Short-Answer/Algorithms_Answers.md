@@ -74,5 +74,6 @@ height of floor from where if thrown egg is not broken = floor < f
 1- do a binary search since the building is kind of sorted with same floor at each level
 2- so i would divide n(height of building) by 2 to find the middle floor.
 3- throw an egg, if broken, i would leave the floors above and repeat the second step from ground to middle floor -1
-4- if not broken, i would skip the floors upto middle and repeat the second step from middle floor + 1 to n
+4- if not broken, i would skip the floors from ground upto middle and repeat the second step from middle floor + 1 to n
+5- repeat the process till you find your sweet spot
 ```
